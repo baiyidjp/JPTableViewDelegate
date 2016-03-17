@@ -15,6 +15,7 @@
 		A282881C1C9A90620085E11B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A282881A1C9A90620085E11B /* LaunchScreen.storyboard */; };
 		A28288271C9A90620085E11B /* JPTableViewDelegateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A28288261C9A90620085E11B /* JPTableViewDelegateTests.m */; };
 		A28288321C9A90630085E11B /* JPTableViewDelegateUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A28288311C9A90630085E11B /* JPTableViewDelegateUITests.m */; };
+		A28288411C9A90830085E11B /* JPTableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A28288401C9A90830085E11B /* JPTableViewDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		A282882D1C9A90630085E11B /* JPTableViewDelegateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JPTableViewDelegateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A28288311C9A90630085E11B /* JPTableViewDelegateUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPTableViewDelegateUITests.m; sourceTree = "<group>"; };
 		A28288331C9A90630085E11B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A282883F1C9A90830085E11B /* JPTableViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPTableViewDelegate.h; sourceTree = "<group>"; };
+		A28288401C9A90830085E11B /* JPTableViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPTableViewDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				A28288101C9A90620085E11B /* AppDelegate.m */,
 				A28288121C9A90620085E11B /* ViewController.h */,
 				A28288131C9A90620085E11B /* ViewController.m */,
+				A282883F1C9A90830085E11B /* JPTableViewDelegate.h */,
+				A28288401C9A90830085E11B /* JPTableViewDelegate.m */,
 				A28288151C9A90620085E11B /* Main.storyboard */,
 				A28288181C9A90620085E11B /* Assets.xcassets */,
 				A282881A1C9A90620085E11B /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A28288411C9A90830085E11B /* JPTableViewDelegate.m in Sources */,
 				A28288141C9A90620085E11B /* ViewController.m in Sources */,
 				A28288111C9A90620085E11B /* AppDelegate.m in Sources */,
 				A282880E1C9A90610085E11B /* main.m in Sources */,
